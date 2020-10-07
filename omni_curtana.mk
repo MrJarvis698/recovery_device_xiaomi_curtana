@@ -16,6 +16,7 @@
 
 # Release name
 PRODUCT_RELEASE_NAME := curtana
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
 DEVICE_PATH := device/xiaomi/curtana
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
